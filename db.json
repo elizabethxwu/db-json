@@ -1,31 +1,49 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
+    "sales_leads": {
+        "sales_lead": [{
+            "lead": {
+                "brand": "seadoo_watercraft",
+                "capture_contact_point_type": "web",
+                "other_preferred_brands": ["seadoo_watercraft"],
+                "capture_date": "2021-06-02T20:25:01Z",
+                "provider_name": "digioh",
+                "source": "Web",
+                "type": "information_request",
+                "time_zone": "UTC-04:00",
+                "division": "seadoo_pwc_vehicles",
+                "campaign_name": "SEA DOO NEWSLETTER",
+                "event_description": "SD031_2021_WEB_NEWSLETTER___"
+            },
+            "consumer": {
+                "first_name": "Uncha",
+                "last_name": "Lead",
+                "culture_code": "en-CA",
+                "email": "alexis.brousseau+111@brp.com",
+                "address": {
+                    "country": "CA",
+                    "street": " "
+                },
+                "consents": {
+                    "applied_channel": ["email", "address", "phone"],
+                    "reason": "form_submission",
+                    "form_id": "GDPR_CA_0001",
+                    "consent": [{
+                        "version_id": "A-0001",
+                        "category": "communication",
+                        "status": "opt-in",
+                        "capture_date": "2021-06-02T20:25:01Z"
+                    }, {
+                        "version_id": "A-0002",
+                        "category": "profiling",
+                        "status": "seen",
+                        "capture_date": "2021-06-02T20:25:01Z"
+                    }]
+                }
+            },
+            "contact": {
+                "want_to_be_contacted": true
+            }
+        }]
     },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "form_origin": "digioh",
 }
