@@ -1,7 +1,7 @@
 {
     "sales_leads": {
         "sales_lead": [{
-            test
+            "lead": 1
         }]
     },
     "form_origin": "digioh",
